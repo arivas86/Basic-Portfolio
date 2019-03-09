@@ -1,9 +1,12 @@
 h1, h2, h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
 }
 
 p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    
     
 }
 
@@ -14,6 +17,15 @@ body{
 label{
     margin-right: 10px;
 }
+
+img {
+    margin: 5px;
+}
+
+hr{
+    height: 10px;
+}
+
 .page-default{
     width: 960px;
     margin: auto;
@@ -22,7 +34,7 @@ label{
     border-color: grey;
     padding: 15px;
     background-color: white;  
-    clear: both;
+    clear: right;
     }
 
 .first-button {
@@ -38,27 +50,13 @@ label{
   }
 
 
-.pic-auto{
-    width:500px;
-    margin: auto;
-    position: relative;
-    float: left;
-}
-.pic-def{
-    height: 600px;
-}
+
 .img-cont{
     width:500px;
     margin: auto;
     border: 5px dashed;
     }
        
-.nav-menu a {
-        text-decoration: none;
-        color: #fff;
-        display: inline-block;
-        transition: .3s background-color;
-      }
        
 .nav-item a:hover {
         color:red;
@@ -71,7 +69,7 @@ label{
       }
 
 .navbar-brand{
-    background: green;
+    background: #4aaaa5;
     border: 5px;
     border-color: rgb(0, 58, 0);
     font-size: 30px;
@@ -79,22 +77,6 @@ label{
     border-radius: 30px;
 }
 
-
-.column{
-    float: left;
-    width: 40%;
-    height: 600px;
-    }
-
-.column-2{
-    float: left;
-    width: 60%;
-    height: 600px;
-    background: rgb(53, 53, 53);
-    
- 
-    
-    }
 
 .textbox{
     width: 500px;
